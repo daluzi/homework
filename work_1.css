@@ -1,0 +1,102 @@
+@font-face{
+	font-family: "楷体";
+	src: url(./AdobeKaitiStd-Regular.otf);
+	font-weight: 500;
+}
+body{
+	background-image: url(./work_1.jpg );
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.title{
+	position: relative;
+	left: 510px;
+	top: 0px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	width: 400px;
+	height: 55px;
+}
+table{
+	border-collapse:collapse;
+}
+.lighter{
+	color:#ccccff;
+	display: inline-block;
+}
+.stronger{
+	color: #6666cc;
+	display: inline-block;
+}
+.all{
+	width: 500px;
+	height: 600px;
+	border: 1px solid #ccffff;
+	position: relative;
+	top: 0px;
+	margin: auto;
+}
+.tab_title{
+	position: relative;
+	top: 0px;
+	color: #6699cc;
+	background-color: #f7f7f7;
+	width: 500px;
+	height: 30px;
+}
+.tb_til{
+	height: 90px;
+	font-size: 15px;
+	font-family: "楷体";
+}
+.others{
+	background-color: #28282f;
+}
+.tab_topline{
+	position: relative;
+	top: 0px;
+	width: 500px;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+}
+/*.tab_tpln{
+	width: 65px;
+	height: 100px;
+}*/
+.tab_tplnbg{
+	background-color: #6699cc;
+	color: #fff0f0;
+	font-family: "宋体";
+	height: 90px;
+	width: 70px;
+}
+.hello{
+	display: none;
+}
+
+.tab_tmlnbg{
+	background-color: #ff6666;
+	color: #fff0f0;
+	font-family: "宋体";
+	height: 90px;
+}
+.tab_tblnbg{
+	background-color: #66cc99;
+	color: #fff0f0;
+	font-family: "宋体";
+	height: 90px;
+}
+.tab_tplnfirst{
+	font-size: 20px;
+	color: #7272dd;
+}
+.tab_tplnbg:hover .hello{
+	display: block;
+}
+.tab_tmlnbg:hover .hello{
+	display: block;
+}
+.tab_tblnbg:hover .hello{
+	display: block;
+}
